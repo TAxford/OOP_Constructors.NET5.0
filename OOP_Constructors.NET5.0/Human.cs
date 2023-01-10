@@ -13,6 +13,12 @@ namespace OOP_Constructors.NET5._0
         private string eyeColor;
         private int age;
 
+
+        public Human()
+        {
+            Console.WriteLine("Constructor called. Object created");
+        }
+
         //constructor
         public Human(string myFirstName, string lastName, string eyeColor, int age)
         {
