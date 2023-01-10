@@ -15,6 +15,14 @@ namespace OOP_Constructors.NET5._0
             Human basicHuman = new Human();
             basicHuman.IntroduceMyself();
 
+            Human natalie = new Human("Natalie");
+            natalie.IntroduceMyself();
+
+            Human bob = new Human("Bob", "Baker");
+            bob.IntroduceMyself();
+
+            Human carl = new Human("Carl", "Walter", "Red", 23);
+            carl.IntroduceMyself();
 
             Console.ReadKey();
         }
