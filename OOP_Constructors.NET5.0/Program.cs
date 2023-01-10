@@ -12,6 +12,9 @@ namespace OOP_Constructors.NET5._0
             Human becca = new Human("Becca", "Axford", "Green", 34);
             becca.IntroduceMyself();
 
+            Human basicHuman = new Human();
+            basicHuman.IntroduceMyself();
+
 
             Console.ReadKey();
         }
