@@ -6,8 +6,12 @@ namespace OOP_Constructors.NET5._0
     {
         static void Main(string[] args)
         {
-            Human sissy = new Human("Sissy", "Wagner");
-            sissy.IntroduceMyself();
+            Human tim = new Human("Tim", "Axford", "Blue", 37);
+            tim.IntroduceMyself();
+
+            Human becca = new Human("Becca", "Axford", "Green", 34);
+            becca.IntroduceMyself();
+
 
             Console.ReadKey();
         }

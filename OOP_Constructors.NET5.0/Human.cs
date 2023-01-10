@@ -8,22 +8,26 @@ namespace OOP_Constructors.NET5._0
 {
     internal class Human
     {
-        string firstName;
-        string lastName;
+        private string firstName;
+        private string lastName;
+        private string eyeColor;
+        private int age;
 
         //constructor
-        public Human(string myFirstName, string lastName)
+        public Human(string myFirstName, string lastName, string eyeColor, int age)
         {
             //two ways or creating this constructor
             firstName = myFirstName;
             this.lastName = lastName;
+            this.eyeColor = eyeColor;
+            this.age = age;
         }
 
 
 
         public void IntroduceMyself()
         {
-            Console.WriteLine("Hi, I'm {0} {1}", firstName, lastName);
+            Console.WriteLine("Hi, I'm {0} {1} {2} {3}", firstName, lastName, eyeColor, age);
         }
     }
 
