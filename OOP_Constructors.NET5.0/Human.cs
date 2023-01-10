@@ -19,6 +19,14 @@ namespace OOP_Constructors.NET5._0
             Console.WriteLine("Constructor called. Object created");
         }
 
+        public Human(string myFirstName, string lastName, string eyeColor)
+        {
+            //two ways or creating this constructor
+            firstName = myFirstName;
+            this.lastName = lastName;
+            this.eyeColor = eyeColor;
+        }
+
         //constructor
         public Human(string myFirstName, string lastName, string eyeColor, int age)
         {
@@ -27,7 +35,7 @@ namespace OOP_Constructors.NET5._0
             this.lastName = lastName;
             this.eyeColor = eyeColor;
             this.age = age;
-        }
+        }       
 
 
 
