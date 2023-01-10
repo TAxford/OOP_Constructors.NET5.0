@@ -54,12 +54,20 @@ namespace OOP_Constructors.NET5._0
 
         public void IntroduceMyself()
         {
-            if(age != 0)
+            if(age != 0 && lastName != null && eyeColor != null && firstName != null)
             Console.WriteLine("Hi, I'm {0} {1} and am {3} years old. My eye color is {2}", firstName, lastName, eyeColor, age);
-            else
+            else if (age != 0 && lastName != null && firstName != null)
             {
-                Console.WriteLine("Hi, I'm {0} {1}. My eye color is {2}", firstName, lastName, eyeColor);
-            }        
+                Console.WriteLine("Hi, I'm {0} {1}. My age is {3}", firstName, lastName, age);
+            }
+            else if (lastName != null && firstName != null)
+            {
+                Console.WriteLine("Hi, I'm {0} {1}.", firstName, lastName);
+            }
+            else if (firstName != null)
+            {
+                Console.WriteLine("Hi, I'm {0}.", firstName);
+            }
         }
     }
 
