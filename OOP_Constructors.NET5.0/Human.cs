@@ -27,7 +27,7 @@ namespace OOP_Constructors.NET5._0
 
         public void IntroduceMyself()
         {
-            Console.WriteLine("Hi, I'm {0} {1} {2} {3}", firstName, lastName, eyeColor, age);
+            Console.WriteLine("Hi, I'm {0} {1} and am {3} years old. My eye color is {2}", firstName, lastName, eyeColor, age);
         }
     }
 
