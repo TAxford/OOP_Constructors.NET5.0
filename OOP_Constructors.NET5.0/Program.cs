@@ -6,7 +6,11 @@ namespace OOP_Constructors.NET5._0
     {
         static void Main(string[] args)
         {
-            
+            Human sissy = new Human();
+            sissy.IntroduceMyself();
+
+            Human franzl = new Human();
+            franzl.IntroduceMyself();
         }
     }
 }
